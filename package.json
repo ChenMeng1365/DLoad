@@ -1,0 +1,30 @@
+{
+  "name": "dload",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DLoad - 基于 DeepSeek Harness (DSH) 的开源 IDE 工作区",
+  "scripts": {
+    "start": "dsh web",
+    "start:noopen": "dsh web --no-open",
+    "setup": "dsh plugin --profile web add dsh-vscode-mode@0.26.0 && dsh plugin --profile web add dsh-git-panel@0.1.20",
+    "setup:ide": "dsh plugin --profile web add dsh-vscode-mode@0.26.0",
+    "setup:git": "dsh plugin --profile web add dsh-git-panel@0.1.20",
+    "plugin:list": "dsh plugin --profile web list"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh": "^0.2.1-rc.5"
+  },
+  "allowScripts": {
+    "@deepseek-ai/dsh-subprocess-local@0.2.1-rc.5": true,
+    "@google/genai@2.21.0": true,
+    "koffi@3.1.1": true,
+    "node-pty@1.2.0-beta.15": true,
+    "protobufjs@7.6.6": true
+  },
+  "devDependencies": {
+    "pnpm": "^10.34.9"
+  }
+}

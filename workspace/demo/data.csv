@@ -1,0 +1,7 @@
+id,name,value,category
+1,router-a,1299,network
+2,switch-b,899,network
+3,server-x,15999,compute
+4,storage-y,3299,storage
+5,ups-z,799,power
+6,firewall-w,2499,security

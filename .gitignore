@@ -1,0 +1,8 @@
+# 依赖（npm install 可重建）
+node_modules/
+
+# 临时文件
+.temp/
+
+# DSH 运行产物
+*.log
