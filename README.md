@@ -45,7 +45,7 @@ stop-dsh.cmd
 ## 首次使用
 
 1. 运行 `start-dsh.cmd`，浏览器自动打开 `http://127.0.0.1:3080`。
-2. **登录模型**：左下角账号菜单 → 登录 → 跳转 DeepSeek 开放平台授权（本机已授权，账号 189******65；DSH 也支持 API Key 接入 DeepSeek 或其他模型）。
+2. **登录模型**：左下角账号菜单 → 登录 → 跳转 DeepSeek 开放平台授权（本机已完成授权；DSH 也支持 API Key 接入 DeepSeek 或其他模型）。
 3. **选模型**：输入框左下角「请选择模型」→ 选择 DeepSeek 模型与推理等级（当前默认 DeepSeek-V4.1-Flash / High）。
 4. **添加工作区**：左侧「添加工作区」→ 选择本目录下的 `workspace\demo`（或任意代码目录），即可在右侧边栏看到文件树。
 5. 右上角「打开右侧边栏」后可使用：
@@ -145,5 +145,3 @@ DSH 内置的 `dsh-mcp-client` 以 **stdio** 方式接入 SC-TyPhon 决策服务
 - DeepSeek Harness：MIT（`github.com/deepseek-ai/deepseek-harness`）
 - dsh-vscode-mode：MIT（`github.com/Lenonss/DSH_VsCodeMode`）
 - dsh-git-panel：见其仓库（npm 发布版）
-
-> AI生成

@@ -21,5 +21,3 @@ demo/
 4. 点击 `README.md` 预览 Markdown 渲染效果。
 5. 对 AI 说「给 hello.js 加一个 shuffle 函数」，观察差异审查（红绿 diff / Keep / Undo）。
 6. 打开 Git 面板，体验分支视图与变更提交。
-
-> AI生成
